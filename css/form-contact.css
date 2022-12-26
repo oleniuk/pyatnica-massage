@@ -1,0 +1,147 @@
+.section-form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section-form-container {
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(25px);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backface-visibility: hidden;
+    border-radius: 25px;
+    width: 450px;
+    z-index: 100;
+  }
+  
+  .h1-form {
+    text-align: center;
+    padding: 35px 25px 25px 25px;
+    color: #393939;
+    font-size: 23px;
+  }
+  
+  .inp {
+    padding: 5px 25px 5px 25px; 
+  }
+  
+  .inp input {
+    border: solid 2px #0000003c;
+  }
+  
+  .inp-but {
+    padding: 5px 25px 5px 25px; 
+  }
+  
+  .btn-send {
+    padding: 10px 10px 10px 10px; 
+    background: linear-gradient(90deg, #136AB1, #CA428A);
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px 35px 0px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .inp-but :hover {
+  will-change: transform; 
+  transform: translate3d(-0.731px, -6.0242px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
+  transform-style: preserve-3d;
+  }
+  
+  
+  
+  .cont-inp {
+    backdrop-filter: blur(25px);
+    background: rgba(255, 255, 255, 0.1);
+    border: solid 2px #000000;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backface-visibility: hidden;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .ball {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    transform: translate(-75px, -100px);
+    background: linear-gradient(90deg, #CB2F70, #f3f5f5);
+  }
+  
+  .ball-2 {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    transform: translate(350px, 250px);
+    background: linear-gradient(90deg, #CB2F70, #f3f5f5);
+  }
+  
+  
+  
+  @media screen and (max-width:1060px){
+    .ball-2 {
+      transform: translate(320px, 280px);
+    }
+  }
+  
+  
+  @media screen and (max-width:991px){
+    .section-form {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 100%;
+    }
+
+    .section-form-container {
+      width: 700px;
+    }
+
+    .h1-form {
+      padding: 40px 25px 40px 25px;
+      font-size: 33px;
+      line-height: 50px;
+    }
+
+    .inp {
+      padding: 10px 40px 10px 40px; 
+    }
+      
+  .cont-inp {
+    padding: 30px;
+    font-size: 25px;
+  }
+
+  .inp-but {
+    padding: 5px 40px 5px 40px; 
+  }
+  
+  .btn-send {
+    padding: 20px 20px 20px 20px; 
+    margin: 20px 0px 40px 0px;
+    font-size: 25px;
+  }
+
+    .ball {
+      transform: translate(50px, -80px);
+      }
+      
+      .ball-2 {
+        transform: translate(650px, 480px);
+      }
+  }
+  
